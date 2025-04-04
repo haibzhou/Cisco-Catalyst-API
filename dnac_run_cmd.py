@@ -4,9 +4,9 @@ import json
 import time
 
 # Replace these with your actual DNAC credentials and URL
-DNAC_BASE_URL = "https://10.87.125.61:8232"
-USERNAME = "admin"
-PASSWORD = "C!sc01234"
+DNAC_BASE_URL = "https://<ip address>"
+USERNAME = "<username>"
+PASSWORD = "<password>"
 
 def get_auth_token(base_url, username, password):
     """
